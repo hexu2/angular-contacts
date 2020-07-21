@@ -13,6 +13,7 @@ import { ContactEditComponent } from './contact-edit/contact-edit.component';
 import { TagListComponent } from './tag-list/tag-list.component';
 import { TagNewComponent } from './tag-new/tag-new.component';
 import { TagEditComponent } from './tag-edit/tag-edit.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TagEditComponent } from './tag-edit/tag-edit.component';
     ContactEditComponent,
     TagListComponent,
     TagNewComponent,
-    TagEditComponent
+    TagEditComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
